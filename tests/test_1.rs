@@ -18,7 +18,7 @@ pub struct CreateUserDto {
 }
 
 #[async_trait::async_trait]
-#[inject_helper::export_service]
+#[orbital::export_service]
 pub trait CreateUserService: 'static + Sync + Send {
     async fn create(&self, create: CreateUserDto) -> Result<UserDto, ErrorKind>;
 }

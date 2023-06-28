@@ -1,7 +1,11 @@
 [package]
-name = "inject-helper"
+name = "orbital"
 version = "0.1.0"
 edition = "2021"
+authors = ["HalsekiRaika <reirokusanami.rdh@gmail.com>"]
+readme = "README.md"
+license-file = "LICENSE"
+repository = "https://github.com/HalsekiRaika/orbital.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
