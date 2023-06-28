@@ -6,6 +6,7 @@ authors = ["HalsekiRaika <reirokusanami.rdh@gmail.com>"]
 readme = "README.md"
 license-file = "LICENSE"
 repository = "https://github.com/HalsekiRaika/orbital.git"
+publish = true
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
