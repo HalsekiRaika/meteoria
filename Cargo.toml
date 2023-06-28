@@ -19,7 +19,7 @@ path = "tests/program.rs"
 [dependencies]
 quote = "1"
 proc-macro2 = "1"
-syn = { version = "2", features = ["extra-traits", "derive"] }
+syn = { version = "2", features = ["extra-traits", "parsing"] }
 
 [dev-dependencies]
 trybuild = "1.0"
